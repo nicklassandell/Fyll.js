@@ -129,7 +129,6 @@
 		// Action helpers
 		actionHelpers: {
 			setFocus: function(target, callback) {
-
 				var fyll = window.fyll;
 
 				// Add focus class
@@ -141,7 +140,6 @@
 				}
 			},
 			removeFocus: function(target, callback) {
-
 				var fyll = window.fyll;
 
 				setTimeout(function() {
@@ -163,7 +161,6 @@
 				pauseAfter: true,
 				execute: function(value, callback) {
 					var fyll = window.fyll,
-
 						target = document.getElementById(value);
 
 					if(!target) {
