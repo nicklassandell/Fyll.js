@@ -1,4 +1,9 @@
-(function() {
+/**
+ * Fyll.js
+ * Distributed under MIT license.
+ * Source: https://github.com/nicklassandell/Fyll.js
+*/
+;(function() {
 	"use strict";
 
 	window.fyll = {
