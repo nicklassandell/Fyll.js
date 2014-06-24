@@ -1,6 +1,8 @@
 # Fyll.js
 
-Fyll is a lightweight and extendable library for filling out forms in a human manner. The primary use case is to demo forms, though feel free to hack it up or use it in any way you want.
+Fyll is a lightweight and extendable library for filling out forms in a human manner. The primary use case is to demo forms, though feel free to hack it up or use it in any way you want. Fyll does not depend on any other libraries.
+
+**Fyll.js is still being actively developed and is not considered stable at this time.**
 
 ## How do i use it?
 
