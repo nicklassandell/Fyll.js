@@ -25,6 +25,10 @@
 			if(typeof config === 'object') {
 				this.config = this.helpers.mergeObjects(this.config, config);
 			}
+			// If function was passed, set it as callback function
+			else if(typeof config === 'function') {
+				this.config.complete = config;
+			}
 
 			this.isRunning = true;
 			this.queue = this.parseQuery(query);

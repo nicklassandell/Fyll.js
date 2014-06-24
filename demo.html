@@ -20,7 +20,9 @@
 	
 	<script src="fyll.js"></script>
 	<script>
-		fyll.go('fill first then fill second then toggle checkbox then toggle radio2 then click button');
+		fyll.go('fill first then fill second then toggle checkbox then toggle radio2 then click button', function() {
+			console.log('done');
+		});
 	</script>
 </body>
 </html>
