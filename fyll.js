@@ -202,6 +202,11 @@
 							// Call press once. It will self invoke after.
 							pressFunc();
 						});
+
+					// No fill value was attached to element
+					} else {
+						console.warn('Fyll: No fill value was attached to element #' + value);
+						callback();
 					}
 				}
 			},
