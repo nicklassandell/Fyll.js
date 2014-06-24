@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fyll.js demo</title>
+
+	<style>
+		.fyll-focus {
+			background: yellow;
+		}
+	</style>
+</head>
+<body>
+
+	<input id="first" type="text" placeholder="Först" data-fyll="Long first word"><br/>
+	<input id="third" type="text" placeholder="Tredje" data-fyll="Third input"><br/>
+	<input type="checkbox" id="checkbox"> <label for="checkbox">Checkbox</label><br/>
+	<input name="radio" type="radio" id="radio1" checked> <label for="radio1">Radio 1</label> <input name="radio" type="radio" id="radio2"> <label for="radio2">Radio 2</label><br/>
+	<button id="button">Klick me last</button><br/>
+	<input id="second" type="text" placeholder="Andra" data-fyll="Second" value="Initial value (second)">
+	
+	<script src="fyll.js"></script>
+	<script>
+		//fyll.go('toggle radio1 then fill first then toggle radio2');
+		
+		//fyll.go('fill first then toggle radio2 then fill second then fill third then toggle checkbox then click button', {focusClass: 'banana'});
+		fyll.go('fill first', {focusClass: 'banana1'});
+		
+	</script>
+</body>
+</html>
